@@ -1,0 +1,29 @@
+set_intro:
+    A set is an unordered collection of distinct elements, they have a unique behaviour where elements cannot be duplicated
+    If an element is duplicated in a set, it will make sure to remove it.
+    Sets have uniqueness.
+
+set_membership:
+    Set membership determines whether a particular element exists within a set.
+    If statements are usually used to check for a singular element.
+    If you have multiple elements, we can use a function (like any) + generator expression (x in y for x in z)
+    Keys in a dict are treated like sets because keys are unordered and unique.
+    Set membership checks like these become very useful in data filtering or validation scenarios
+
+set_mutability:
+    Mutability refers to whether an object can be modified after its creation.
+    Mutable object(s) can be altered while an immutable object(s) cannot.
+    Sets fall under mutable therefore they can add, remove and update elements after a set is made.
+    Python allows us to create immutable set using frozenset constructor.
+    Error exception will be raised if you try to change the immutable set at all.
+    Benefit of using immutable set is that the data remains stable and reliable.
+    Mutable lists can have side effects and have data changes unexpectedly.
+
+libmanagementchallenge:
+    Create a library that contains books and the user needs to able to find the book they want.
+    The code must return True or False (Boolean) regarding if the book is available or not.
+
+union_intersecton:
+    Union allows you to merge the contents of two sets without duplicating elements.
+    The intersetion containts the most common elements between the two sets.
+    Union merges can intelligently detect duplicated elements in either list and remove them from the final list.
