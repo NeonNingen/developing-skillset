@@ -4,22 +4,25 @@ class calc:
         self.num2 = num2
 
     def add(self):
-        return self.num1 + self.num2
+        return self.display(self.num1 + self.num2)
     
     def minus(self, gofirst):
         if gofirst == "1":
-            return self.num1 - self.num2
+            return self.display(self.num1 - self.num2)
         else:
-            return self.num2 - self.num1
+            return self.display(self.num2 - self.num1)
         
     def multiply(self):
-        return self.num1 * self.num2
+        return self.display(self.num1 * self.num2)
     
     def divide(self, gofirst):
         if gofirst == "1":
-            return self.num1 / self.num2
+            return self.display(self.num1 / self.num2)
         else:
-            return self.num2 / self.num1
+            return self.display(self.num2 / self.num1)
+        
+    def display(self, result):
+        print(result)
         
 
     '''
