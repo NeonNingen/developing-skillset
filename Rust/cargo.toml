@@ -4,4 +4,4 @@ resolver = "3" # 2024 Rust Crates
 # Add folders to this list when you want to run Rust Projects 
 members = [
     "Foundation/*"
-    ]
+]
